@@ -1,10 +1,8 @@
-package Graph;
+package test;
 
-import java.lang.reflect.Method;
-import java.lang.reflect.Modifier;
 import java.util.Random;
 
-import Graph.TopicManagerSingleton.TopicManager;
+import test.TopicManagerSingleton.TopicManager;
 
 public class MainTrain { // simple tests to get you going...
 
