@@ -1,6 +1,7 @@
 package Configs;
 
-public class BinOpAgent{
+import Graph.Agent;
 
-    
+public class BinOpAgent{
+    public BinOpAgent()
 }
