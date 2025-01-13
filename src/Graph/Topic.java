@@ -8,7 +8,7 @@ public class Topic {
     private final List<Agent> subs = new ArrayList<>();
     private final List<Agent> pubs = new ArrayList<>();
 
-    Topic(String name){
+    public Topic(String name){
         this.name=name;
     }
 
@@ -37,5 +37,11 @@ public class Topic {
         pubs.remove(a);
     }
 
+    public List<Agent> getPubs() {
+        return pubs;
+    }
 
+    public List<Agent> getSubs() {
+        return subs;
+    }
 }
